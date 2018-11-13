@@ -1,7 +1,7 @@
-﻿# Личный проект «Седона»
+# Личный проект «Седона»
 
 * Студент: [Kristina Zakharova](https://up.htmlacademy.ru/htmlcss/23/user/891155).
-* Наставник: [Анатолий Пазюк] (https://htmlacademy.ru/profile/id380487).
+* Наставник: `Неизвестно`.
 
 ---
 
