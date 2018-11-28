@@ -1,0 +1,142 @@
+body {
+	margin: 0;
+	padding: 0;
+
+	font-family: "PT Sans", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 26px;
+	color: #333333;
+	text-transform: uppercase;
+
+	background-color: #ffffff;
+}
+
+a {
+	text-decoration:none;
+}
+
+.button {
+	font: inherit;
+}
+
+.main-navigation {
+	font-family: "PT Sans", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 26px;
+	color: #000000;
+
+	background-color: #ffffff;
+
+	list-style: none;
+}
+
+.main-navigation a {
+	color: #000000;
+	font-weight: 700;
+}
+
+h1 {
+color: #ffffff;
+}
+
+h2 {
+	color: #000000;
+	background-color: #ffffff;
+}
+
+h3 {
+	font-size: 30px;
+	line-height: 36px;
+	color: #000000;
+}
+.sedona-introduction {
+	background-color: #eeeeee;
+	background-image: url('img/background-photo.jpg');
+	text-align: center;
+}
+
+.polygon {
+  width: 1201px;
+  height: 59px;
+  object-fit: contain;
+}
+
+.why-sedona {
+	color: #333333;
+	background-color: #ffffff;
+	list-style: none;
+	text-align: center;
+}
+
+.interested {
+	color: #333333;
+	background-color: #ffffff;
+	text-align: center;
+}
+
+.hotel-search {
+	text-align: center;
+}
+
+.hotel-search-button {
+	color: #ffffff;
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	background-color: #766357;
+	border: none;
+	padding: 35px 139px 33px 140px;
+}
+
+.popup {
+	padding: 55px;
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 700;
+	text-transform: uppercase;
+	
+}
+
+input[type=text] {
+	color: #000000;
+	background-color: #f2f2f2;
+	border: none;
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.submit {
+	width: 458px;
+	height: 58px;
+	color: #ffffff;
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	background-color: #81b3d2;
+	border: none;
+}
+
+.submit:hover, 
+.submit:fosus {
+	background-color: #604e43;
+}
+
+.main-footer {
+	background-color: #ffffff;
+}
+
+.hashtag {
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: bold;
+}
+
+.social-button {
+	background-color: #81b3d2;
+}
