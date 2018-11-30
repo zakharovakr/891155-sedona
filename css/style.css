@@ -175,6 +175,16 @@ a.more-info {
 	padding: 8px 17px 7px 17px;
 }
 
+a.more-info:hover,
+a.more-info:focus {
+	background-color: #669ec0;
+}
+
+a.more-info:active {
+	color: rgba(255, 255, 255, 0.3);
+	background-color: #5496bd;
+}
+
 a.book {
 	font-size: 14px;
 	line-height: 26px;
@@ -182,6 +192,16 @@ a.book {
 	font-weight: 700;
 	background-color: #766357;
 	padding: 8px 17px 7px 17px;
+}
+
+a.book:hover,
+a.book:focus {
+	background-color: #604e43;
+}
+
+a.book:active {
+	color: rgba(255, 255, 255, 0.3);
+	background-color: #503e33;
 }
 
 b {
