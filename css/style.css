@@ -19,20 +19,22 @@ a {
 	font: inherit;
 }
 
-.main-navigation {
+.visually-hidden {
+	display: none;
+}
+
+.main-navigation a {
 	font-family: "PT Sans", Arial, sans-serif;
 	font-size: 14px;
 	line-height: 26px;
 	color: #000000;
+	font-weight: 700;
 
 	background-color: #ffffff;
-
-	list-style: none;
 }
 
-.main-navigation a {
-	color: #000000;
-	font-weight: 700;
+.main-navigation ul {
+	list-style: none;
 }
 
 h1 {
@@ -51,8 +53,9 @@ h3 {
 }
 .sedona-introduction {
 	background-color: #eeeeee;
-	background-image: url('img/background-photo.jpg');
+	background-image: url("../img/background-photo.jpg");
 	text-align: center;
+	background-size: 1200px 773px;
 }
 
 .polygon {
@@ -90,6 +93,16 @@ h3 {
 	padding: 35px 139px 33px 140px;
 }
 
+.hotel-search-button:hover,
+.hotel-search-button:focus {
+	background-color: #604e43;
+}
+
+.hotel-search-button:active {
+	color: 255, 255, 255, 0.3;
+	background-color: #503e33;
+}
+
 .popup {
 	padding: 55px;
 	font-size: 14px;
@@ -109,6 +122,16 @@ input[type=text] {
 	text-transform: uppercase;
 }
 
+input[type=text]:hover {
+	background-color: #ebebeb;
+}
+
+input[type=text]:focus {
+	background-color: #ffffff;
+	border: 2px solid #e5e5e5;
+	outline: none;
+}
+
 .submit {
 	width: 458px;
 	height: 58px;
@@ -123,8 +146,58 @@ input[type=text] {
 }
 
 .submit:hover, 
-.submit:fosus {
-	background-color: #604e43;
+.submit:focus {
+	background-color: #669ec0;
+}
+
+.submit:active {
+	color: rgba(255, 255, 255, 0.3);
+	background-color: #5496bd;
+}
+
+ul.hotels-list {
+	list-style: none;
+}
+
+.hotel a {
+	font-size: 21px;
+	line-height: 26px;
+	color: #000000;
+	font-weight: 700;
+}
+
+a.more-info {
+	font-size: 14px;
+	line-height: 26px;
+	color: #ffffff;
+	font-weight: 700;
+	background-color: #81b3d2;
+	padding: 8px 17px 7px 17px;
+}
+
+a.book {
+	font-size: 14px;
+	line-height: 26px;
+	color: #ffffff;
+	font-weight: 700;
+	background-color: #766357;
+	padding: 8px 17px 7px 17px;
+}
+
+b {
+	font-size: 14px;
+	line-height: 26px;
+	color: #333333;
+	font-weight: 300;
+}
+
+b.rating {
+	font-size: 14px;
+	line-height: 21px;
+	color: #666666;
+	font-weight: 300;
+	background-color: #f2f2f2;
+	padding: 5px 13px 6px 16px;
 }
 
 .main-footer {
@@ -137,6 +210,20 @@ input[type=text] {
 	font-weight: bold;
 }
 
+.footer-social ul {
+	list-style: none;
+}
+
 .social-button {
 	background-color: #81b3d2;
+}
+
+.social-button:hover,
+.social-button:focus {
+	background-color: #669ec0;
+}
+
+.social-button:active {
+	background-color: #5496bd;
+	color: rgba(255, 255, 255, 0.3);
 }
