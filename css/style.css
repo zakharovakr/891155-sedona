@@ -33,6 +33,19 @@ a {
 	background-color: #ffffff;
 }
 
+.main-navigation a:hover, 
+.main-navigation a:focus {
+	color: #81b3d2;
+}
+
+.main-navigation a:active {
+	color: rgba(0, 0, 0, 0.3);
+	}
+
+.main-navigation a.active-page {
+	color: #766357;
+}
+
 .main-navigation ul {
 	list-style: none;
 }
@@ -164,6 +177,15 @@ ul.hotels-list {
 	line-height: 26px;
 	color: #000000;
 	font-weight: 700;
+}
+
+.hotel a:hover, 
+.hotel a:focus {
+	color: #81b3d2;
+}
+
+.hotel a:active {
+	color: rgba(0, 0, 0, 0.3);
 }
 
 a.more-info {
