@@ -1,5 +1,5 @@
 body {
-	margin: 0;
+	margin: auto;
 	padding: 0;
 
 	font-family: "PT Sans", Arial, sans-serif;
@@ -9,6 +9,9 @@ body {
 	text-transform: uppercase;
 
 	background-color: #ffffff;
+	width: 1200px;
+	margin-left: 40px;
+	margin-right: 40px;
 }
 
 a {
@@ -19,8 +22,35 @@ a {
 	font: inherit;
 }
 
-.visually-hidden {
-	display: none;
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+header {
+	background-color: #ffffff;
+	margin: 0;
+}
+
+main {
+	background-color:;
+	margin: 0;
+}
+
+.main-header {
+	min-height: 56px;
+	margin: 0;
 }
 
 .main-navigation a {
@@ -29,8 +59,6 @@ a {
 	line-height: 26px;
 	color: #000000;
 	font-weight: 700;
-
-	background-color: #ffffff;
 }
 
 .main-navigation a:hover, 
@@ -50,38 +78,80 @@ a {
 	list-style: none;
 }
 
-h1 {
-color: #ffffff;
+.main-navigation img {
+	position: absolute;
+	left: 569px;
 }
 
-h2 {
-	color: #000000;
-	background-color: #ffffff;
+.site-navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items:;
+  padding: 0;
+  margin: 0;
 }
+
+main .container {
+	margin: 0;
+	padding: 0;
+}
+
+
 
 h3 {
 	font-size: 30px;
 	line-height: 36px;
 	color: #000000;
 }
+
 .sedona-introduction {
+	margin: 0;
+	padding: 0;
+	width: 1200px;
 	background-color: #eeeeee;
 	background-image: url("../img/background-photo.jpg");
+	background-size: cover;
 	text-align: center;
-	background-size: 1200px 773px;
+	background-position: 50% -85px;
+}
+
+.welcome {
+	margin-top: 75px;
+	margin-bottom: 15px;
+	padding: 0;
 }
 
 .polygon {
-  width: 1201px;
-  height: 59px;
-  object-fit: contain;
+	margin: 0;
+	padding: 0;
+	width: 1202px;
+	height: 59px;
+	object-fit: cover;
 }
 
 .why-sedona {
+	display: flex;
+	flex-direction: column;
 	color: #333333;
 	background-color: #ffffff;
 	list-style: none;
+	margin-top: -10px;
+	padding: 0; 
+	min-height: 216px;
 	text-align: center;
+}
+
+.why-sedona h2 {
+	color: #000000;
+	background-color: #ffffff;
+	margin-top: 60px;
+	margin-bottom: 25px;
+	padding: 0;
+}
+
+.why-sedona p {
+	margin: 0;
+	padding: 0;
 }
 
 .interested {
@@ -92,6 +162,11 @@ h3 {
 
 .hotel-search {
 	text-align: center;
+	background-color: #ffffff;
+}
+
+.hotel-search p {
+	margin-bottom: 52px;
 }
 
 .hotel-search-button {
@@ -122,7 +197,6 @@ h3 {
 	line-height: 26px;
 	font-weight: 700;
 	text-transform: uppercase;
-	
 }
 
 input[type=text] {
@@ -168,8 +242,28 @@ input[type=text]:focus {
 	background-color: #5496bd;
 }
 
+.filters {
+margin: 0;
+padding: 0;
+min-height: 359px;
+background-color: red;
+}
+
 ul.hotels-list {
 	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	width: 1200px;
+}
+
+li.hotel {
+	margin: 0;
+	padding: 0;
+	min-height: 150px;
+	background-color: yellow;
+	padding-left: 72px;
 }
 
 .hotel a {
@@ -245,7 +339,10 @@ b.rating {
 }
 
 .main-footer {
-	background-color: #ffffff;
+	background-color: rgba(255,255,255,0.9);
+	display: flex;
+	justify-content: space-around;
+	min-height: 120px;
 }
 
 .hashtag {
@@ -256,6 +353,11 @@ b.rating {
 
 .footer-social ul {
 	list-style: none;
+}
+
+.social-buttons {
+	display: flex;
+	justify-content: space-around;
 }
 
 .social-button {
@@ -280,3 +382,9 @@ b.rating {
 .button:active .svg{
 	fill: #bdbbbc;
 }
+
+
+
+
+
+
