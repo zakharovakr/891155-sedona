@@ -1,5 +1,5 @@
 body {
-	margin: auto;
+	margin: 0;
 	padding: 0;
 
 	font-family: "PT Sans", Arial, sans-serif;
@@ -18,11 +18,18 @@ a {
 	text-decoration:none;
 }
 
+img {
+	max-width: 100%;
+	height: auto;
+}
+
 .button {
 	font: inherit;
 }
 
-.visually-hidden:not(:focus):not(:active) {
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
   position: absolute;
 
   width: 1px;
@@ -49,8 +56,9 @@ main {
 }
 
 .main-header {
-	min-height: 56px;
+	min-height: 55px;
 	margin: 0;
+	padding: 0;
 }
 
 .main-navigation a {
@@ -78,21 +86,40 @@ main {
 	list-style: none;
 }
 
-.main-navigation img {
+.main-navigation .header-logo img {
 	position: absolute;
-	left: 569px;
+	left: 568px;
+	top: -2px;
 }
 
 .site-navigation {
+	background-color: ;
   display: flex;
-  justify-content: space-around;
-  align-items:;
+  min-height: 55px;
+  justify-content: space-between;
+  align-items: center;
   padding: 0;
   margin: 0;
 }
 
+.site-navigation li {
+	background-color: ;
+	flex-basis: 239px;
+	height: 100%;
+	text-align: center;	
+}
+
+.site-navigation li:nth-child(2) {
+	text-align: left;
+}
+
+.site-navigation li:nth-child(3) {
+	text-align: right;
+}
+
+
 main .container {
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 }
 
@@ -356,12 +383,19 @@ b.rating {
 }
 
 .social-buttons {
+	background-color: red;
 	display: flex;
-	justify-content: space-around;
+	justify-content: flex-start;
 }
 
 .social-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 46px;
+	height: 48px;
 	background-color: #81b3d2;
+	margin-right: 6px;
 }
 
 .social-button:hover,
@@ -383,7 +417,12 @@ b.rating {
 	fill: #bdbbbc;
 }
 
-
+.footer-copyright {
+	background-color: red;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 
 
 
