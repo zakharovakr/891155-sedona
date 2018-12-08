@@ -341,7 +341,7 @@ button.number-of-guests {
 margin: 0;
 padding: 0;
 min-height: 359px;
-background-color: red;
+background-color: ;
 }
 
 ul.hotels-list {
@@ -357,7 +357,7 @@ li.hotel {
 	margin: 0;
 	padding: 0;
 	min-height: 150px;
-	background-color: yellow;
+	background-color: ;
 	padding-left: 72px;
 }
 
