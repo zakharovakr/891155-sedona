@@ -201,6 +201,11 @@ h3 {
 	padding: 0;
 }
 
+li.sedona-city-img {
+	width: 800px;
+	height: 256px;
+}
+
 .advantages-list h3 {
 	font-size: 21px;
 	line-height: 21px;
@@ -755,7 +760,7 @@ h2.found {
 .sort-by-types {
 	display: flex;
 }
-.sort-by-types legend {
+.sort-by-types p {
 	margin-top: 17px;
 }
 
