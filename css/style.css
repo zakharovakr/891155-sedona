@@ -201,7 +201,8 @@ h3 {
 	padding: 0;
 }
 
-li.sedona-city-img {
+.advantages-list li.sedona-city-img,
+.advantages-list li.devil-bridge {
 	width: 800px;
 	height: 256px;
 }
